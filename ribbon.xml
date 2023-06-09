@@ -1,7 +1,7 @@
 <customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="OnAddinLoad">
     <ribbon startFromScratch="false">
         <tabs>
-            <tab id="jsa" label="艾宾浩斯" insertBeforeMso="TabInsert"> 
+            <tab id="jsa" label="艾宾浩斯" insertBeforeMso="TabInsert">
                 <group id="btnStart" label="group1">
                     <button id="addWorkbook" label="创建单词储备簿" getEnabled="OnGetEnabled" onAction="ribbonExport" getImage="GetImage" visible="true" size="large"/>
                     <button id="Taskpane" label="功能面板" getEnabled="OnGetEnabled" onAction="ribbonExport" getImage="GetImage" visible="true" size="large"/>
